@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n = prompt("Digite um numero")
+        //document.write(`oulá ${n}`)
+        let indice = 0
+        while(indice <= n){
+            document.write(`Ola ${indice}<br>`)
+            indice++
+        }
+        document.write("Saiu do while")
+
+        for(let i=0;i<=indice;i++){
+            document.write("Entrou no For <br>")
+            document.write(`Ola ${i}<br>`)
+        }
+    </script>
+</body>
+</html>
