@@ -24,6 +24,32 @@
             console.log("ola 3 arrow functions")
          }
          ola3()
+
+         function diasemana(){
+            return new Date().getDay()
+         }
+
+         let dia = diasemana()
+         console.log(dia)
+         console.log(diasemana())
+
+         function somar(n1, n2){
+            return n1 + n2
+         }
+
+         
+         console.log(somar(3,5))
+         alert(somar(1,1))
+
+         //JS permite passar mais parametros (ou menos) que a função espera
+         console.log(somar(10))
+
+         //funcoes com valores default nos parametros
+         function somar2(n1 = 0, n2 = 2){
+            return n1 + n2
+         }
+
+         console.log(somar2(2))
                 
     </script>
 </body>
